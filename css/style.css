@@ -19,24 +19,17 @@
   height: 23px;
 }
 
-@font-face {
-font-family: "Bebas Neue";
-src: url("../fonts/bebas-neue/bebas-neue.woff2") format("woff2"),
-url("../fonts/bebas-neue/bebas-neue.woff") format("woff");
-font-weight: normal;
-font-style: normal;
-font-display: swap;
-}
+
 
 .h1 {
 font-family: "Bebas Neue", Arial, sans-serif; /* исправлено */
 
 font-size: 60px;
-font-weight: bold;
+letter-spacing: 10px;
 color: white;
 position: absolute;
 top: 370px;
-left: 43%;
+left: 50%;
 z-index: 10;
 width: 575px;
 height: 72px;
